@@ -3,7 +3,7 @@
 ## Overview
 This repository implements a patient-aware adaptive n-gram feature-extraction approach for seizure prediction from EEG. The algorithm counts amplitude patterns of predefined lengths within time windows, computes an anomalies ratio (AR), and classifies pre-ictal vs. inter-ictal segments with a Random Forest classifier. The implementation follows the workflow described in the IEEE Healthcom 2016 paper “Patient-aware adaptive n-gram based algorithm for epileptic seizure prediction using EEG signals” by Alawieh et al.
 
-![Pipeline](figures/ngram_pipeline.png)
+![Pipeline](ngram_pipeline.png)
 
 ## Methodology
 1. Segmentation: select pre-ictal and inter-ictal windows for each patient.
